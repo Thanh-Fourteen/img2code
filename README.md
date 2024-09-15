@@ -29,7 +29,7 @@ git clone git@github.com:Thanh-Fourteen/img2code.git
 2. Navigate to the project directory:
 
 ```bash
-cd Image-to-HTML-CSS
+cd img2code
 ```
 
 3. Install the required packages:
