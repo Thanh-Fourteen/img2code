@@ -56,7 +56,20 @@ This will generate the HTML and CSS files for your image in the `ui` folder.
 
 ## Example:
 
-Let's say you have a UI design image named `pricing.png` in the `img` folder. After running `main.py`, you will find a new folder named `pricing` inside the `ui` folder, containing `index.html` and `style.css` files.
+Input:
+![alt text](img/pricing.png)
+Output:
+![alt text](demo_output/pricing.png)
+
+Input:
+![alt text](img/company_home.png)
+Output:
+![alt text](demo_output/company_home.png)
+
+Input:
+![alt text](img/contact_form.png)
+Output:
+![alt text](demo_output/contact_form.png)
 
 ## Notes:
 
