@@ -23,7 +23,7 @@ This project utilizes the Google Gemini API to convert images of UI designs into
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Image-to-HTML-CSS.git
+git clone git@github.com:Thanh-Fourteen/img2code.git
 ```
 
 2. Navigate to the project directory:
@@ -54,22 +54,13 @@ python main.py
 
 This will generate the HTML and CSS files for your image in the `ui` folder.
 
-## Example:
+## Input and Output Examples:
 
-Input:
-![alt text](img/pricing.png)
-Output:
-![alt text](demo_output/pricing.png)
-
-Input:
-![alt text](img/company_home.png)
-Output:
-![alt text](demo_output/company_home.png)
-
-Input:
-![alt text](img/contact_form.png)
-Output:
-![alt text](demo_output/contact_form.png)
+| Input | Output |
+|---|---|
+| ![alt text](img/pricing.png) | ![alt text](demo_output/pricing.png) |
+| ![alt text](img/company_home.png) | ![alt text](demo_output/company_home.png) |
+| ![alt text](img/contact_form.png) | ![alt text](demo_output/contact_form.png) |
 
 ## Notes:
 
