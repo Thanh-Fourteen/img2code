@@ -1,0 +1,138 @@
+## index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="card">
+            <h2 class="card-title">Basic</h2>
+            <div class="card-price">$29 <span>/month</span></div>
+            <ul class="card-features">
+                <li><i class="fas fa-check-circle"></i> 720p Video Rendering</li>
+                <li><i class="fas fa-check-circle"></i> 2GB Cloud Storage</li>
+                <li><i class="fas fa-check-circle"></i> Basic Video Templates</li>
+            </ul>
+            <button class="card-button">Get Started</button>
+        </div>
+        <div class="card">
+            <div class="card-popular">Popular</div>
+            <h2 class="card-title">Pro</h2>
+            <div class="card-price">$59 <span>/month</span></div>
+            <ul class="card-features">
+                <li><i class="fas fa-check-circle"></i> 1080p Video Rendering</li>
+                <li><i class="fas fa-check-circle"></i> 10GB Cloud Storage</li>
+                <li><i class="fas fa-check-circle"></i> Premium Video Templates</li>
+                <li><i class="fas fa-check-circle"></i> Collaboration Tools</li>
+            </ul>
+            <button class="card-button">Get Started</button>
+        </div>
+        <div class="card">
+            <h2 class="card-title">Enterprise</h2>
+            <div class="card-price">$99 <span>/month</span></div>
+            <ul class="card-features">
+                <li><i class="fas fa-check-circle"></i> 4K Video Rendering</li>
+                <li><i class="fas fa-check-circle"></i> Unlimited Cloud Storage</li>
+                <li><i class="fas fa-check-circle"></i> Custom Video Templates</li>
+                <li><i class="fas fa-check-circle"></i> Advanced Collaboration Tools</li>
+                <li><i class="fas fa-check-circle"></i> Dedicated Support</li>
+            </ul>
+            <button class="card-button">Get Started</button>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+## style.css
+
+```css
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.pricing-table {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.card-popular {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-features {
+    list-style: none;
+    padding: 0;
+}
+
+.card-features li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.card-features li i {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+.card-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.card-button:hover {
+    background-color: #45a049;
+}
+```
+
+This code will create a basic pricing table with three plans: Basic, Pro, and Enterprise. Each plan will have a title, price, list of features, and a "Get Started" button. The Pro plan will have a "Popular" tag. The CSS will style the table to make it visually appealing.
+
+Please note that you will need to include Font Awesome in your HTML file to use the checkmark icons. You can do this by adding the following line within the `<head>` tag:
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqk1Q27oLY94fm0ZX+0+U+st/oQ4iwtrYi2/1j3g4b5NzZ11Tf0Q9Z37FfrE+G/twlVejpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+```
+
+You can customize the styling further to match your desired look and feel.

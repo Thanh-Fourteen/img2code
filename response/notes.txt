@@ -1,0 +1,247 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFC300;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #FFC300;
+  font-weight: bold;
+}
+
+.nav-item a .icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFC300;
+  margin-right: 10px;
+}
+
+.note {
+  background-color: #FFF5EE;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.note-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.active {
+  background-color: #FFFFE0;
+}
+
+.nav-item.active a {
+  color: #000000;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <div class="header">
+      <img src="folder-icon.png" class="header-icon" alt="folder icon">
+      <h1 class="header-title">Notes</h1>
+    </div>
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="#">
+          <img src="folder-icon.png" class="icon" alt="folder icon">
+          All Notes
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#">
+          <img src="trash-icon.png" class="icon" alt="trash icon">
+          Trash
+        </a>
+      </li>
+    </ul>
+    <ul class="nav">
+      <li class="nav-item active">
+        <a href="#">
+          Note 1
+          <img src="arrow-right-icon.png" class="icon" alt="arrow right icon">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#">
+          Note 2
+          <img src="arrow-right-icon.png" class="icon" alt="arrow right icon">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="note">
+      <h2 class="note-title">Note 1</h2>
+      <div class="note-content">
+        This is a note.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+```
+
+```css
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFC300;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #FFC300;
+  font-weight: bold;
+}
+
+.nav-item a .icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFC300;
+  margin-right: 10px;
+}
+
+.note {
+  background-color: #FFF5EE;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.note-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.active {
+  background-color: #FFFFE0;
+}
+
+.nav-item.active a {
+  color: #000000;
+}
+```
+
+**Explanation:**
+
+- The HTML code creates the basic structure of the page using `div` elements for the container, sidebar, and main content area.
+- The CSS code styles the elements, setting their background colors, padding, margins, fonts, and more.
+- The `header` class styles the top section of the sidebar, while `nav` styles the navigation list.
+- The `note` class styles the note content area, including the title and content.
+- The `active` class styles the currently selected navigation item, highlighting it with a different background color and text color.
+
+**Note:**
+
+- You will need to replace `"folder-icon.png"`, `"trash-icon.png"`, and `"arrow-right-icon.png"` with the actual file paths of the images you want to use.
+- The CSS code assumes you have a font family called `sans-serif` installed on your system. If you don't, you can change the font family to any other font that you have.
+- You can adjust the colors, sizes, and other styles to your liking.
